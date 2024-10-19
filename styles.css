@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.player-list {
+    list-style: none;
+    padding: 0;
+}
+
+.player {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transition for animations */
+}
+
+.player:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+
+.player h2 {
+    margin: 0;
+    font-size: 1.5em; /* Adjust the name size */
+}
+
+.player p {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
